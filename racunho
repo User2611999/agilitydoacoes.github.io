@@ -1,0 +1,20 @@
+ <script>
+    var selecionar = document.getElementById("opcao");
+    var escolhido = selecionar.value;
+    window.alert(escolhido);
+  </script>
+
+  <script src="calcular.js">
+  </script>
+
+  <script>
+  document.getElementById("simular").addEventListener('click', function () {
+    (document.getElementById("opcao").value)
+      (document.getElementById("number").value)
+    let response = calcular_impostos(document.getElementById("opcao").value, document.getElementById("number").value);
+
+    console.log(response)
+  });;
+
+</script>
+
